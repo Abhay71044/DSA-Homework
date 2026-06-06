@@ -13,7 +13,7 @@ public:
         int top=0;
         int bottom=m-1;
         int left=0;
-        int right=n-1;
+        int right=n-1; 
 
         while(count<totalelements){
             for(int i=left;i<=right && count<totalelements;i++){

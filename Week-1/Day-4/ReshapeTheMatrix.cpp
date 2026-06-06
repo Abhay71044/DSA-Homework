@@ -17,7 +17,7 @@ public:
                 v[row][col] = mat[i][j];
                 col++;
                 if (col == c) {
-                    col = 0;
+                    col = 0; 
                     row++;
                 }
             }
