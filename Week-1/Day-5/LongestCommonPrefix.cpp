@@ -21,7 +21,7 @@ public:
     string longestCommonPrefix(vector<string>& strs) {
         string res=strs[0];
         for(int i=1;i<strs.size();i++){
-            res=common(res,strs[i]);
+            res=common(res,strs[i]); 
         }
         return res;
     }

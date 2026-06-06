@@ -11,7 +11,7 @@ public:
             s[low]=s[high];
             s[high]=ch;
             low++;
-            high--;
+            high--; 
         }
     }
 };
